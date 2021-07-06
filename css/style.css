@@ -78,7 +78,7 @@ font-size:max(2em, min(3em, 6.666vw));
 .content{}
 
 .content_body{
-	max-width: 360;
+	max-width: 320;
 	margin: 0px auto;
 	padding: 10px 20px;
 }
