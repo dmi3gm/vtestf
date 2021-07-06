@@ -34,7 +34,7 @@ html, body {
 	min-height: 100vh;
 	background-color: #666;
 	display: flex;
-	padding: 10px;
+	padding: 5px;
 }
 .fullscreen_bg {
 	background: url("../8.png") center / cover no repeat fixed;
@@ -51,7 +51,7 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 5px 5px;
+	padding: 0px 0px;
 	}
 .fullscreen_title{
 font-size: 2em;
