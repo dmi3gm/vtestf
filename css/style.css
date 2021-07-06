@@ -64,7 +64,7 @@ font-size:max(2em, min(3em, 6.666vw));
 }
 .fullscreen_link{
 	display: inline-block;
-	line-height: 40px;
+	line-height: 35px;
 	text-transform: uppercase;
 	color: #fff;
 	text-decoration: none;
