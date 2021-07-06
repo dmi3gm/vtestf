@@ -86,7 +86,8 @@ border: 2px solid black;
 
 p{
 	margin: 0px 0px 10px 0px;
-font-size: 1em;
+font-size:max(1em, min(2em, 6.666vw));
+
 }
 
 p:last-child {
