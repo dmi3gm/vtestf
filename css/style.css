@@ -54,7 +54,7 @@ html, body {
 	padding: 0px 0px;
 	}
 .fullscreen_title{
-/*	font-size:max(2em, min(3em, 6.666vw));*/
+font-size:max(2em, min(3em, 6.666vw));
 		margin: 0px 0px 0px 0px
 		
 }
