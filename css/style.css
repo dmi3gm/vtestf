@@ -69,7 +69,7 @@ html, body {
 	color: #fff;
 	text-decoration: none;
 	/* letter-spacing: 2px; */
-	background-color: grey;
+	background-color: green;
 	align-self: center;
 	padding: 0px 20px;
 	margin: 10px 10px 10px 10px;
@@ -104,5 +104,5 @@ h2{
 .footer_body{
 	max-width: 360;
 	margin: 0px auto;
-	adding: 20px 20px;
+	adding: 0px 0px;
 }
