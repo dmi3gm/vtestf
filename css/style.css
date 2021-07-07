@@ -94,11 +94,18 @@ p:last-child {
 	margin: 0px;
 }
 
+h1{
+	font-size: 20px 0px 0px 0px;
+	text-transform: uppercase;
+}
+
 h2{
 	margin: 20px 0px 10px 0px;
 	font-size: 1.2em;
 	text-transform: uppercase;
 }
+
+
 
 .footer{
 		background-color: fefefe;
