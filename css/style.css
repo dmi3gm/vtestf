@@ -21,7 +21,7 @@ html, body {
 	font-family: PTMonoRegular, Monospace;
 	color: #black;
 	font-size: 18pt;
-	line-height: 1.4;
+	line-height: 1.2;
 }
 
 .wrapper{
@@ -45,13 +45,13 @@ html, body {
 	background-color: fefefe;
 	flex: 1 1 auto;
 	width: 100%;
-	max-width: 640;
+	max-width: 400px;
 	margin: 5px auto;
-	text-align: center;
+	/* text-align: center; */
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	padding: 0px 5px;
+	/* justify-content: center; */
+	padding: 0px 3px;
 	}
 .fullscreen_title{
 font-size: 2em;
@@ -64,19 +64,26 @@ font-size: 2em;
 }
 .fullscreen_link{
 	display: inline-block;
-	line-height: 35px;
+	/* postion: absolute;  */
+	/* right: 0; */
+	line-height: 30 px;
 	text-transform: uppercase;
 	color: black;
 	text-decoration: none;
 	/* letter-spacing: 2px; */
-	background-color #e7e7e7;
-border: 2px solid black;
-	align-self: center;
+	/* background-color: #e7e7e7; */
+	border: 2px solid black;
+	align-self: right;
 	padding: 0px 15px;
 	margin: 10px 10px 10px 10px;
 	
 }
-.content{}
+.content{
+	/* border: 2px solid black; */
+	margin: 0px auto;
+	padding: 0px 5px;
+	
+}
 
 .content_body{
 	max-width: 320;
@@ -84,9 +91,22 @@ border: 2px solid black;
 	padding: 10px 20px;
 }
 
+
+h1{
+	font-size: max(1.4em, min(2em, 3vw));
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+h2{
+	margin: 20px 0px 10px 0px;
+	font-size: max(1.2em, min(1.8em, 2.4vw));
+	text-transform: uppercase;
+}
+
 p{
-	margin: 0px 0px 10px 0px;
-font-size:max(1em, min(2em, 6.666vw));
+	margin: 0px 0px 15px 0px;
+	font-size:max(1em, min(1.6em, 2.2vw));
 
 }
 
@@ -94,25 +114,29 @@ p:last-child {
 	margin: 0px;
 }
 
-h1{
-	font-size: 1.5em;
-	text-transform: uppercase;
-}
-
-h2{
-	margin: 20px 0px 10px 0px;
-	font-size: 1.2em;
-	text-transform: uppercase;
-}
-
-
 
 .footer{
-		background-color: fefefe;
-		text-align: center;
+	/* min-height: 100vh; */
+	background-color: #666;
+	/* display: flex; */
+	/* padding: 1px; */
 }
+
 .footer_body{
-	max-width: 360;
-	margin: 0px auto;
-	adding: 0px 0px;
+	background-color: fefefe;
+	/* flex: 1 1 auto; */
+	/* width: 100%; */
+	max-width: 400;
+	margin: 3px auto;
+	text-align: center;
+	/* display: flex; */
+	/* flex-direction: column; */
+	justify-content: center;
+	padding: 0px 5px;
+}
+.right {
+	text-align:right;
+	/* margin-bottom: 2em; */
+	/* padding: 20px; */
+	/* line-height: 2em; */
 }
