@@ -46,12 +46,13 @@ html, body {
 	flex: 1 1 auto;
 	width: 100%;
 	max-width: 400px;
-	margin: 5px auto;
+	margin: 0 auto;
 	/* text-align: center; */
 	display: flex;
 	flex-direction: column;
 	/* justify-content: center; */
-	padding: 0px 3px;
+	padding: 0px 5px 0px 5px;
+
 	}
 .fullscreen_title{
 font-size: 2em;
@@ -76,10 +77,28 @@ font-size: 2em;
 	align-self: right;
 	padding: 0px 15px;
 	margin: 10px 10px 10px 10px;
-	
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+
+.link_S{
+	display: inline-block;
+	/* postion: absolute;  */
+	/* right: 0; */
+	line-height: 30 px;
+	text-transform: lowercase;
+	color: black;
+	text-decoration: none;
+	/* letter-spacing: 2px; */
+	/* background-color: #e7e7e7; */
+	border: 2px solid black;
+	align-self: right;
+	padding: 0px 15px;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-.content{
-	/* border: 2px solid black; */
+
+/*.content{
+	/* border: 2px solid black;
 	margin: 0px auto;
 	padding: 0px 5px;
 	
@@ -89,7 +108,7 @@ font-size: 2em;
 	max-width: 320;
 	margin: 0px auto;
 	padding: 10px 20px;
-}
+} */
 
 
 h1{
@@ -100,13 +119,13 @@ h1{
 
 h2{
 	margin: 20px 0px 10px 0px;
-	font-size: max(1.2em, min(1.8em, 2.4vw));
+	font-size: 1em;
 	text-transform: uppercase;
 }
 
 p{
 	margin: 0px 0px 15px 0px;
-	font-size:max(1em, min(1.6em, 2.2vw));
+	/* font-size:max(1em, min(1.6em, 2.2vw)); */
 
 }
 
