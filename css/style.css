@@ -133,6 +133,11 @@ p:last-child {
 	margin: 0px;
 }
 
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
 
 .footer{
 	/* min-height: 100vh; */
