@@ -35,6 +35,7 @@ html, body {
 	background-color: #666;
 	display: flex;
 	padding: 1px;
+	flex: 1 0 auto;
 }
 .fullscreen_bg {
 	background: url("../8.png") center / cover no repeat fixed;
@@ -63,22 +64,6 @@ font-size: 2em;
 		font-size: 30px;
 		margin: 0px 0px 20px 0px
 }
-.fullscreen_link{
-	display: inline-block;
-	/* postion: absolute;  */
-	/* right: 0; */
-	line-height: 30 px;
-	text-transform: uppercase;
-	color: black;
-	text-decoration: none;
-	/* letter-spacing: 2px; */
-	/* background-color: #e7e7e7; */
-	border: 2px solid black;
-	align-self: right;
-	padding: 0px 15px;
-	margin: 10px 0px 10px 0px;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	}
 
 .link_s{
 	display: inline-block;
@@ -92,29 +77,30 @@ font-size: 2em;
 	/* background-color: #e7e7e7; */
 	border: 2px solid black;
 	align-self: right;
-	padding: 0px 15px;
+	padding: 1px 15px 2.5px 15px;
 	margin: 10px 0px 10px 0px;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-/*.content{
-	/* border: 2px solid black;
+/* .content{
+	border: 2px solid black;
 	margin: 0px auto;
 	padding: 0px 5px;
-	
 }
 
 .content_body{
 	max-width: 320;
 	margin: 0px auto;
 	padding: 10px 20px;
-} */
-
+}
+ */
 
 h1{
 	font-size: max(1.4em, min(2em, 3vw));
 	line-height: 2;
 	text-transform: uppercase;
+/* 	font-style: normal;*/
+	font-weight: normal; 
 }
 
 h2{
@@ -134,43 +120,64 @@ p:last-child {
 }
 
 a {
-  outline: none;
-  text-decoration: none;
-  padding: 2px 1px 0;
+	display: inline-block;
+	/* postion: absolute;  */
+	/* right: 0; */
+	line-height: 30 px;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	/* letter-spacing: 2px; */
+	/* background-color: #e7e7e7; */
+	border: 2px solid black;
+	align-self: right;
+	padding: 0px 15px;
+	margin: 10px 0px 10px 0px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	/* outline: none; */
 }
 
 .footer{
 	/* min-height: 100vh; */
 	background-color: #666;
-	/* display: flex; */
+	display: flex;
 	/* padding: 1px; */
 }
 
 .footer_body{
 	background-color: fefefe;
 	/* flex: 1 1 auto; */
-	/* width: 100%; */
+	width: 100%;
 	max-width: 400;
 	margin: 2px auto;
-	/* text-align: center; */
+	text-align: center;
 	/* display: flex; */
 	/* flex-direction: column; */
 	justify-content: center;
 	padding: 0px 10px;
 }
-div.text {
+.div.text {
 	overflow: hidden;
 }
-	div.text div.left { 
-		margin: 10px 0px 10px 0px;
+div.text div.left { 
+		margin: 13px auto;
 		float: left;
-	}
-	div.text div.right { 
+			width: 50%;
+				text-align: left;
+				}
+div.text div.right { 
 	float: right;}
 
 .right {
 	text-align:right;
+		bottom: 0px;
 	/* margin-bottom: 2em; */
 	/* padding: 20px; */
 	/* line-height: 2em; */
 }
+
+nav {
+position: relative;
+	bottom: 0px;
+}
+
