@@ -137,6 +137,7 @@ a {
 	/* outline: none; */
 }
 
+
 .footer{
 	/* min-height: 100vh; */
 	background-color: #666;
@@ -162,7 +163,7 @@ a {
 div.text div.left { 
 		margin: 13px auto;
 		float: left;
-			width: 50%;
+			width: 60%;
 				text-align: left;
 				}
 div.text div.right { 
