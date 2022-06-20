@@ -27,8 +27,8 @@ html, body {
 	background-color: #eeeeee;
 	font-family: PTSansNarrow, sans-serif;
 	color: #black;
-	font-size: 20pt;
-	line-height: 1.2;
+	font-size: 22pt;
+	line-height: 1.1;
 }
 
 .wrapper{
@@ -126,9 +126,16 @@ p{
 	margin: 0px 0px 15px 0px;
 	/* font-size:max(1em, min(1.6em, 2.2vw)); */
 }
+
 li{
-	margin: 0px 0px 0px 25px;
+	list-style-position:outside; /* список внутри блока*/
+	list-style-type: none; /* Убираем маркеры у списка */
 }
+
+li:before {
+    content: "- "; /* Добавляем в качестве маркера символ */
+   }
+
 
 /* pre{
 	font-weight: lighter; 
